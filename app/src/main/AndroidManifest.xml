@@ -15,6 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".doa.doa" />
+        <activity android:name=".doa.sebelummakan" />
+        <activity android:name=".doa.sesudahmakan" />
+        <activity android:name=".doa.sebelumtidur" />
+        <activity android:name=".doa.sesudahtidur" />
+        <activity android:name=".doa.masukwc" />
+        <activity android:name=".doa.keluarwc" />
+        <activity android:name=".doa.akanmandi" />
+        <activity android:name=".doa.bercermin" />
+        <activity android:name=".doa.masukrumah" />
+        <activity android:name=".doa.keluarrumah" />
+        <activity android:name=".doa.sebelumwudhu"></activity>
     </application>
 
 </manifest>
