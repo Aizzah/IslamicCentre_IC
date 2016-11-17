@@ -39,7 +39,12 @@
         <activity android:name=".Hijaiyah" />
         <activity android:name=".Asmaulhusna" />
         <activity android:name=".hadist" />
-        <activity android:name=".alquran"></activity>
+        <activity android:name=".alquran" />
+        <activity android:name=".doa.adaangin" />
+        <activity android:name=".doa.sebelumbelajar" />
+        <activity android:name=".doa.sesudahbelajar" />
+        <activity android:name=".doa.pagihari" />
+        <activity android:name=".doa.sorehari"></activity>
     </application>
 
 </manifest>
