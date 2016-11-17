@@ -15,11 +15,42 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.imageButton).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.buttonAlquran).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, doa.class));
             }
         });
+        findViewById(R.id.buttonTajwid).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Tajwid.class));
+            }
+        });
+        findViewById(R.id.buttonHijaiyah).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Hijaiyah.class));
+            }
+        });
+        findViewById(R.id.buttonAsmaulhusna).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Asmaulhusna.class));
+            }
+        });
+        findViewById(R.id.buttonHadist).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, hadist.class));
+            }
+        });
+        findViewById(R.id.buttonDoa).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, doa.class));
+            }
+        });
+
     }
 }
