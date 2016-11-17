@@ -80,5 +80,53 @@ public class doa extends AppCompatActivity {
                 startActivity(new Intent(doa.this, sebelumwudhu.class));
             }
         });
+        findViewById(R.id.slswudhu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, selesaiwudhu.class));
+            }
+        });
+        findViewById(R.id.bacaquran).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, akanmembacaquran.class));
+            }
+        });
+        findViewById(R.id.mlhtkilat).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, melihatkilat.class));
+            }
+        });
+        findViewById(R.id.mndgrpetir).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, mendengarpetir.class));
+            }
+        });
+        findViewById(R.id.orgskt).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, menjengukorangsakit.class));
+            }
+        });
+        findViewById(R.id.mndptmimpibaik).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, mendapatmimipibaik.class));
+            }
+        });
+        findViewById(R.id.trnhjn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, turunhujan.class));
+            }
+        });
+        findViewById(R.id.stlhhjn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, setelahhujan.class));
+            }
+        });
     }
 }

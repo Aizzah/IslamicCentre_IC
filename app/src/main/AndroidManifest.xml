@@ -26,7 +26,15 @@
         <activity android:name=".doa.bercermin" />
         <activity android:name=".doa.masukrumah" />
         <activity android:name=".doa.keluarrumah" />
-        <activity android:name=".doa.sebelumwudhu"></activity>
+        <activity android:name=".doa.sebelumwudhu" />
+        <activity android:name=".doa.selesaiwudhu" />
+        <activity android:name=".doa.akanmembacaquran" />
+        <activity android:name=".doa.melihatkilat" />
+        <activity android:name=".doa.mendengarpetir" />
+        <activity android:name=".doa.menjengukorangsakit" />
+        <activity android:name=".doa.mendapatmimipibaik" />
+        <activity android:name=".doa.turunhujan" />
+        <activity android:name=".doa.setelahhujan"></activity>
     </application>
 
 </manifest>

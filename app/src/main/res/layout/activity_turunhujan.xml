@@ -1,61 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_sesudahtidur"
+    android:id="@+id/activity_turunhujan"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.sesudahtidur">
+    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.turunhujan">
 
     <TextView
-        android:text="DOA SESUDAH TIDUR"
+        android:text="DOA TURUN HUJAN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:id="@+id/textView19"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView70"
         android:textSize="20sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="@android:color/background_dark" />
-
-    <TextView
-        android:text="ُ
-اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView18"
-        android:textSize="35sp"
         android:textColor="@android:color/background_dark"
-        android:layout_marginTop="17dp"
-        android:layout_below="@+id/textView19"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="AL HAMDU LILLAAHIL LADZII AHYAANAA BA'DA MAA AMAA TANAA WA ILAIHIN NUSYUUR"
+        android:text="ُاَللهُمَّ صَيّبًا نَافِعًاُ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:id="@+id/textView20"
-        android:textSize="12sp"
-        android:layout_below="@+id/textView18"
+        android:id="@+id/textView69"
+        android:textSize="35sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView70"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:text="Artinya :
-Segala puji bagi Allah yang telah menghidupkan kami sesudah kami mati (membangunkan dari tidur) dan hanya kepada-Nya kami dikembalikan"
+        android:text="ALLOOHUMMA SHOYYIBAN NAAFI'AN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        android:id="@+id/textView21"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView71"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView69"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Artinya :
+Ya Allah semoga (hujan yang Engkau turunkan ini) lebat dan membawa manfaat."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView72"
         android:textSize="15sp"
         android:textColor="@android:color/background_dark"
-        android:layout_below="@+id/textView20"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

@@ -1,61 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_sesudahtidur"
+    android:id="@+id/activity_mendapatmimipibaik"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.sesudahtidur">
+    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.mendapatmimipibaik">
 
     <TextView
-        android:text="DOA SESUDAH TIDUR"
+        android:text="DOA MENDAPAT MIMPI BAIK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:id="@+id/textView19"
+        android:id="@+id/textView66"
         android:textSize="20sp"
+        android:textColor="?android:attr/colorForeground"
+        android:layout_marginTop="19dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="@android:color/background_dark" />
-
-    <TextView
-        android:text="ُ
-اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView18"
-        android:textSize="35sp"
-        android:textColor="@android:color/background_dark"
-        android:layout_marginTop="17dp"
-        android:layout_below="@+id/textView19"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="AL HAMDU LILLAAHIL LADZII AHYAANAA BA'DA MAA AMAA TANAA WA ILAIHIN NUSYUUR"
+        android:text="اَللهُمَّ اِنِّىْ اَسْأَلُكَ رُؤْيًا صَالِحًا صَادِقَةً غَيْرَكَاذِبَةٍ نَافِعَةً غَيْرَضَارَّةٍ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:id="@+id/textView20"
+        android:id="@+id/textView65"
+        android:textSize="35sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="ALLOOHUMMA INNII AS-ALUKA RU'YAN SHOOLIHATAN SHOODIQOTAN GHOIRO KAADZIBATIN NAAFI'ATAN GHOIRO DLOORROTIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView67"
         android:textSize="12sp"
-        android:layout_below="@+id/textView18"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text="Artinya :
-Segala puji bagi Allah yang telah menghidupkan kami sesudah kami mati (membangunkan dari tidur) dan hanya kepada-Nya kami dikembalikan"
+Ya Allah, aku mohon kepadaMu mimpi yang baik yang benar dan tidak dusta, yang bermanfaat dan tidak berbahaya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        android:id="@+id/textView21"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView68"
         android:textSize="15sp"
         android:textColor="@android:color/background_dark"
-        android:layout_below="@+id/textView20"
+        android:layout_below="@+id/textView67"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
