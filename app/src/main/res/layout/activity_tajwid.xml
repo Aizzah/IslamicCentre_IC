@@ -10,4 +10,68 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.Tajwid">
 
+    <Button
+        android:text="Idghom Bighunnah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sblmtdr"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/idbgh"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/background_light" />
+
+
+    <Button
+        android:text="Idghom Bilaghunnah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idblgh"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/idbgh"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Iqlab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iqlb"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/idblgh"
+        android:layout_alignRight="@+id/idblgh"
+        android:layout_alignEnd="@+id/idblgh" />
+
+    <Button
+        android:text="Idzhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idzr"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/ikf"
+        android:layout_alignRight="@+id/ikf"
+        android:layout_alignEnd="@+id/ikf" />
+
+    <Button
+        android:text="Ikfa'"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ikf"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/iqlb"
+        android:layout_alignRight="@+id/iqlb"
+        android:layout_alignEnd="@+id/iqlb" />
+
+    <Button
+        android:text="Idghom Mitsli (Idghom Mimi)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mm"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/idzr"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
 </RelativeLayout>
