@@ -39,7 +39,10 @@
         <activity android:name=".Asmaulhusna" />
         <activity android:name=".hadist" />
         <activity android:name=".alquran" />
-        <activity android:name=".Tajwid.Tajwid"></activity>
+        <activity android:name=".Tajwid.Tajwid" />
+        <activity android:name=".tajwid.Tajwid" />
+        <activity android:name=".tajwid.idghambigunah" />
+        <activity android:name=".tajwid.tajwid" />
     </application>
 
 </manifest>
