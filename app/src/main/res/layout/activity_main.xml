@@ -19,8 +19,58 @@
         <ImageButton
             android:layout_width="80dp"
             android:layout_height="100dp"
+            app:srcCompat="@drawable/asmaulhusna"
+            android:layout_below="@+id/buttonHijaiyah"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/buttonAsmaulhusna"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/hadist"
+            android:layout_below="@+id/buttonAsmaulhusna"
+            android:id="@+id/buttonHadist"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/doa"
+            android:id="@+id/buttonDoa"
+            android:layout_below="@+id/buttonHadist"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/hijaiyah"
+            android:id="@+id/buttonHijaiyah"
+            android:background="@android:color/transparent"
+            android:layout_below="@+id/buttonTajwid"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="11dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="100dp"
             app:srcCompat="@drawable/alquran"
             android:id="@+id/buttonAlquran"
+            android:background="@android:color/transparent"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -32,55 +82,12 @@
             android:layout_height="100dp"
             app:srcCompat="@drawable/tajwid"
             android:id="@+id/buttonTajwid"
+            android:background="@android:color/transparent"
             android:layout_below="@+id/buttonAlquran"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            app:srcCompat="@drawable/asmaulhusna"
-            android:layout_below="@+id/buttonHijaiyah"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:id="@+id/buttonAsmaulhusna"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            app:srcCompat="@drawable/hijaiyah"
-            android:id="@+id/buttonHijaiyah"
-            android:layout_below="@+id/buttonTajwid"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            app:srcCompat="@drawable/hadist"
-            android:layout_below="@+id/buttonAsmaulhusna"
-            android:id="@+id/buttonHadist"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
-
-        <ImageButton
-            android:layout_width="80dp"
-            android:layout_height="100dp"
-            app:srcCompat="@drawable/doa"
-            android:id="@+id/buttonDoa"
-            android:layout_below="@+id/buttonHadist"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 </ScrollView>
