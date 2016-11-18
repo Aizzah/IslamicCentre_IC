@@ -43,6 +43,11 @@
         <activity android:name=".tajwid.Tajwid" />
         <activity android:name=".tajwid.idghambigunah" />
         <activity android:name=".tajwid.tajwid" />
+        <activity android:name=".tajwid.idghombilaghunah" />
+        <activity android:name=".tajwid.Idzhar" />
+        <activity android:name=".tajwid.Iqlab" />
+        <activity android:name=".tajwid.Ikhfa" />
+        <activity android:name=".tajwid.idghommimi"></activity>
     </application>
 
 </manifest>

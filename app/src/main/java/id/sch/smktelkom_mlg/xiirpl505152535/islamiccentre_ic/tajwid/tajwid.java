@@ -22,5 +22,40 @@ public class tajwid extends AppCompatActivity {
                 startActivity(new Intent(tajwid.this, idghambigunah.class));
             }
         });
-    }
+
+        findViewById(R.id.idgmblgnh).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(tajwid.this, idghombilaghunah.class));
+            }
+        });
+
+        findViewById(R.id.idzhr).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(tajwid.this, Idzhar.class));
+            }
+        });
+
+        findViewById(R.id.iqlb).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(tajwid.this, Iqlab.class));
+            }
+        });
+
+        findViewById(R.id.ikhfa).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(tajwid.this, Ikhfa.class));
+            }
+        });
+
+        findViewById(R.id.idghmmm).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(tajwid.this, idghommimi.class));
+            }
+        });
+}
 }
