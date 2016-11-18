@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pagihari"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.pagihari">
+
+    <TextView
+        android:text="DOA DI PAGI HARI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView90"
+        android:textSize="20sp"
+        android:textColor="?android:attr/colorForeground"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="اَسْأَلُ اللهَ الْعَظِيْمَ رَبَّ الْعَرْشِ الْعَظِيْمِ اَنْ يُعَافِيَكَ وَيُشْفِيَكَِ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView89"
+        android:textSize="35sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="89dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="ALLOOHUMMA BIKA ASHBAHNAA WA BIKA AMSAINAA WA BIKA NAHYAA WA BIKA NAMUUTU WA ILAIKAN NUSYUURU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView91"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView89"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:text="Artinya :
+Ya Allah, karena Engkau kami mengalami waktu pagi dan waktu petang dan karena Engkau kami hidup dan mati dan kepada-Mu juga kami akan kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:id="@+id/textView92"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/textView91"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

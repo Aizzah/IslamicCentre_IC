@@ -3,6 +3,7 @@ package id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.R;
@@ -13,6 +14,8 @@ public class doa extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doa);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         findViewById(R.id.sblmmkn).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,5 +131,45 @@ public class doa extends AppCompatActivity {
                 startActivity(new Intent(doa.this, setelahhujan.class));
             }
         });
+        findViewById(R.id.adaangin).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, adaangin.class));
+            }
+        });
+        findViewById(R.id.sblmbljr).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, sebelumbelajar.class));
+            }
+        });
+        findViewById(R.id.ssdhbljr).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, sesudahbelajar.class));
+            }
+        });
+        findViewById(R.id.pagihari).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, pagihari.class));
+            }
+        });
+        findViewById(R.id.sorehari).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, sorehari.class));
+            }
+        });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId()==android.R.id.home)
+        {
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

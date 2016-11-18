@@ -4,14 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.R;
-
-public class mendapatmimipibaik extends AppCompatActivity {
+public class sebelumbelajar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mendapatmimipibaik);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
     @Override

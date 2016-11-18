@@ -6,12 +6,12 @@ import android.view.MenuItem;
 
 import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.R;
 
-public class mendapatmimipibaik extends AppCompatActivity {
+public class pagihari extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mendapatmimipibaik);
+        setContentView(R.layout.activity_pagihari);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
     @Override
