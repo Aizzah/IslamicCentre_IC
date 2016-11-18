@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.buttonAlquran).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, doa.class));
+                startActivity(new Intent(MainActivity.this, alquran.class));
             }
         });
         findViewById(R.id.buttonTajwid).setOnClickListener(new View.OnClickListener() {

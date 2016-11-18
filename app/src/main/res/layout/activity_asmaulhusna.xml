@@ -15,7 +15,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.Asmaulhusna">
+    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.Asmaulhusna"
+    android:background="@android:color/white">
 <TextView
     android:text="Asmaul Husna"
     android:layout_width="wrap_content"
@@ -31,7 +32,8 @@
     android:id="@+id/imageButtonb"
     android:layout_alignBottom="@+id/imageButtona"
     android:layout_toLeftOf="@+id/imageButtona"
-    android:layout_toStartOf="@+id/imageButtona" />
+    android:layout_toStartOf="@+id/imageButtona"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -40,7 +42,8 @@
     android:id="@+id/imageButtonc"
     android:layout_below="@+id/imageButtona"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -49,7 +52,8 @@
     android:id="@+id/imageButtond"
     android:layout_below="@+id/imageButtona"
     android:layout_toLeftOf="@+id/imageButtonc"
-    android:layout_toStartOf="@+id/imageButtonc" />
+    android:layout_toStartOf="@+id/imageButtonc"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -58,33 +62,18 @@
     android:id="@+id/imageButtone"
     android:layout_below="@+id/imageButtonc"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
-<ImageButton
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:srcCompat="@drawable/h"
-    android:id="@+id/imageButtonh"
-    android:layout_below="@+id/imageButtonf"
-    android:layout_alignLeft="@+id/imageButtonf"
-    android:layout_alignStart="@+id/imageButtonf" />
-
-<ImageButton
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:srcCompat="@drawable/i"
-    android:id="@+id/imageButtoni"
-    android:layout_below="@+id/imageButtong"
-    android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
-<ImageButton
+    <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:srcCompat="@drawable/j"
     android:id="@+id/imageButtonj"
     android:layout_below="@+id/imageButtong"
     android:layout_toLeftOf="@+id/imageButtoni"
-    android:layout_toStartOf="@+id/imageButtoni" />
+    android:layout_toStartOf="@+id/imageButtoni"
+        android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -92,27 +81,19 @@
     android:id="@+id/imageButtonk"
     android:layout_below="@+id/imageButtoni"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 
-
-<ImageButton
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:srcCompat="@drawable/l"
-    android:id="@+id/imageButtonl"
-    android:layout_below="@+id/imageButtonj"
-    android:layout_toLeftOf="@+id/imageButtonk"
-    android:layout_toStartOf="@+id/imageButtonk" />
-
-<ImageButton
+    <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:srcCompat="@drawable/f"
     android:id="@+id/imageButtonf"
     android:layout_below="@+id/imageButtonc"
     android:layout_alignLeft="@+id/imageButtond"
-    android:layout_alignStart="@+id/imageButtond" />
+    android:layout_alignStart="@+id/imageButtond"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -121,7 +102,8 @@
     android:id="@+id/imageButtong"
     android:layout_below="@+id/imageButtone"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -130,7 +112,8 @@
     android:id="@+id/imageButtonm"
     android:layout_below="@+id/imageButtonk"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -139,7 +122,8 @@
     android:id="@+id/imageButtonn"
     android:layout_below="@+id/imageButtonk"
     android:layout_toLeftOf="@+id/imageButtonm"
-    android:layout_toStartOf="@+id/imageButtonm" />
+    android:layout_toStartOf="@+id/imageButtonm"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -147,7 +131,8 @@
     android:id="@+id/imageButtono"
     android:layout_below="@+id/imageButtonm"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -155,7 +140,8 @@
     android:id="@+id/imageButtonp"
     android:layout_below="@+id/imageButtonm"
     android:layout_toLeftOf="@+id/imageButtono"
-    android:layout_toStartOf="@+id/imageButtono" />
+    android:layout_toStartOf="@+id/imageButtono"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -163,7 +149,8 @@
     android:id="@+id/imageButtonq"
     android:layout_below="@+id/imageButtono"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -171,7 +158,8 @@
     android:id="@+id/imageButtonr"
     android:layout_below="@+id/imageButtono"
     android:layout_toLeftOf="@+id/imageButtonq"
-    android:layout_toStartOf="@+id/imageButtonq" />
+    android:layout_toStartOf="@+id/imageButtonq"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -179,7 +167,8 @@
     android:id="@+id/imageButtons"
     android:layout_below="@+id/imageButtonq"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -188,7 +177,8 @@
     android:id="@+id/imageButtont"
     android:layout_below="@+id/imageButtonq"
     android:layout_toLeftOf="@+id/imageButtons"
-    android:layout_toStartOf="@+id/imageButtons" />
+    android:layout_toStartOf="@+id/imageButtons"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -197,7 +187,8 @@
     android:id="@+id/imageButtonu"
     android:layout_below="@+id/imageButtons"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -205,7 +196,8 @@
     android:id="@+id/imageButtonv"
     android:layout_below="@+id/imageButtons"
     android:layout_toLeftOf="@+id/imageButtonu"
-    android:layout_toStartOf="@+id/imageButtonu" />
+    android:layout_toStartOf="@+id/imageButtonu"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -214,7 +206,8 @@
     android:id="@+id/imageButtonw"
     android:layout_below="@+id/imageButtonu"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -223,7 +216,8 @@
     android:id="@+id/imageButtonx"
     android:layout_below="@+id/imageButtonu"
     android:layout_alignLeft="@+id/imageButtonv"
-    android:layout_alignStart="@+id/imageButtonv" />
+    android:layout_alignStart="@+id/imageButtonv"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -232,7 +226,8 @@
     android:id="@+id/imageButtony"
     android:layout_below="@+id/imageButtonw"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -241,7 +236,8 @@
     android:id="@+id/imageButtonz"
     android:layout_below="@+id/imageButtonw"
     android:layout_alignLeft="@+id/imageButtonx"
-    android:layout_alignStart="@+id/imageButtonx" />
+    android:layout_alignStart="@+id/imageButtonx"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -250,7 +246,8 @@
     android:id="@+id/imageButtonaa"
     android:layout_below="@+id/imageButtony"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -259,7 +256,8 @@
     android:id="@+id/imageButtonab"
     android:layout_below="@+id/imageButtonz"
     android:layout_toLeftOf="@+id/imageButtonaa"
-    android:layout_toStartOf="@+id/imageButtonaa" />
+    android:layout_toStartOf="@+id/imageButtonaa"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -267,7 +265,8 @@
     android:id="@+id/imageButtonac"
     android:layout_below="@+id/imageButtonaa"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -276,7 +275,8 @@
     android:id="@+id/imageButtonad"
     android:layout_below="@+id/imageButtonaa"
     android:layout_toLeftOf="@+id/imageButtonac"
-    android:layout_toStartOf="@+id/imageButtonac" />
+    android:layout_toStartOf="@+id/imageButtonac"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -284,7 +284,8 @@
     android:id="@+id/imageButtonae"
     android:layout_below="@+id/imageButtonac"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 
 <ImageButton
@@ -294,7 +295,8 @@
     android:id="@+id/imageButtonaf"
     android:layout_below="@+id/imageButtonac"
     android:layout_alignLeft="@+id/imageButtonad"
-    android:layout_alignStart="@+id/imageButtonad" />
+    android:layout_alignStart="@+id/imageButtonad"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -303,7 +305,8 @@
     android:id="@+id/imageButtonag"
     android:layout_below="@+id/imageButtonae"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -312,7 +315,8 @@
     android:id="@+id/imageButtonah"
     android:layout_below="@+id/imageButtonaf"
     android:layout_alignLeft="@+id/imageButtonaf"
-    android:layout_alignStart="@+id/imageButtonaf" />
+    android:layout_alignStart="@+id/imageButtonaf"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -320,7 +324,8 @@
     android:id="@+id/imageButtonai"
     android:layout_below="@+id/imageButtonag"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -328,7 +333,8 @@
     android:id="@+id/imageButtonaj"
     android:layout_below="@+id/imageButtonag"
     android:layout_toLeftOf="@+id/imageButtonai"
-    android:layout_toStartOf="@+id/imageButtonai" />
+    android:layout_toStartOf="@+id/imageButtonai"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -336,7 +342,8 @@
     android:id="@+id/imageButtonak"
     android:layout_below="@+id/imageButtonai"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -344,7 +351,8 @@
     android:id="@+id/imageButtonal"
     android:layout_below="@+id/imageButtonaj"
     android:layout_toLeftOf="@+id/imageButtonak"
-    android:layout_toStartOf="@+id/imageButtonak" />
+    android:layout_toStartOf="@+id/imageButtonak"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -352,7 +360,8 @@
     android:id="@+id/imageButtonam"
     android:layout_below="@+id/imageButtonak"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -361,7 +370,8 @@
     android:id="@+id/imageButtonan"
     android:layout_below="@+id/imageButtonak"
     android:layout_toLeftOf="@+id/imageButtonam"
-    android:layout_toStartOf="@+id/imageButtonam" />
+    android:layout_toStartOf="@+id/imageButtonam"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -369,7 +379,8 @@
     android:id="@+id/imageButtonao"
     android:layout_below="@+id/imageButtonam"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -377,7 +388,8 @@
     android:id="@+id/imageButtonap"
     android:layout_below="@+id/imageButtonam"
     android:layout_toLeftOf="@+id/imageButtonao"
-    android:layout_toStartOf="@+id/imageButtonao" />
+    android:layout_toStartOf="@+id/imageButtonao"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -385,7 +397,8 @@
     android:id="@+id/imageButtonaq"
     android:layout_below="@+id/imageButtonao"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -393,7 +406,8 @@
     android:id="@+id/imageButtonar"
     android:layout_below="@+id/imageButtonao"
     android:layout_toLeftOf="@+id/imageButtonaq"
-    android:layout_toStartOf="@+id/imageButtonaq" />
+    android:layout_toStartOf="@+id/imageButtonaq"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -401,7 +415,8 @@
     android:id="@+id/imageButtonas"
     android:layout_below="@+id/imageButtonaq"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -410,7 +425,8 @@
     android:id="@+id/imageButtonat"
     android:layout_below="@+id/imageButtonaq"
     android:layout_toLeftOf="@+id/imageButtonas"
-    android:layout_toStartOf="@+id/imageButtonas" />
+    android:layout_toStartOf="@+id/imageButtonas"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -419,7 +435,8 @@
     android:id="@+id/imageButtonau"
     android:layout_below="@+id/imageButtonas"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -427,7 +444,8 @@
     android:id="@+id/imageButtonav"
     android:layout_below="@+id/imageButtonas"
     android:layout_toLeftOf="@+id/imageButtonau"
-    android:layout_toStartOf="@+id/imageButtonau" />
+    android:layout_toStartOf="@+id/imageButtonau"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -436,7 +454,8 @@
     android:id="@+id/imageButtonaw"
     android:layout_below="@+id/imageButtonau"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -445,7 +464,8 @@
     android:id="@+id/imageButtonax"
     android:layout_below="@+id/imageButtonau"
     android:layout_alignLeft="@+id/imageButtonav"
-    android:layout_alignStart="@+id/imageButtonav" />
+    android:layout_alignStart="@+id/imageButtonav"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -454,7 +474,8 @@
     android:id="@+id/imageButtonay"
     android:layout_below="@+id/imageButtonaw"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -463,7 +484,8 @@
     android:id="@+id/imageButtonaz"
     android:layout_below="@+id/imageButtonaw"
     android:layout_alignLeft="@+id/imageButtonax"
-    android:layout_alignStart="@+id/imageButtonax" />
+    android:layout_alignStart="@+id/imageButtonax"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -472,7 +494,8 @@
     android:id="@+id/imageButtonba"
     android:layout_below="@+id/imageButtonay"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -481,7 +504,8 @@
     android:id="@+id/imageButtonbb"
     android:layout_below="@+id/imageButtonaz"
     android:layout_toLeftOf="@+id/imageButtonba"
-    android:layout_toStartOf="@+id/imageButtonba" />
+    android:layout_toStartOf="@+id/imageButtonba"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -489,7 +513,8 @@
     android:id="@+id/imageButtonbc"
     android:layout_below="@+id/imageButtonba"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -498,7 +523,8 @@
     android:id="@+id/imageButtonbd"
     android:layout_below="@+id/imageButtonba"
     android:layout_toLeftOf="@+id/imageButtonbc"
-    android:layout_toStartOf="@+id/imageButtonbc" />
+    android:layout_toStartOf="@+id/imageButtonbc"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -506,7 +532,8 @@
     android:id="@+id/imageButtonbe"
     android:layout_below="@+id/imageButtonbc"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 
 <ImageButton
@@ -516,7 +543,8 @@
     android:id="@+id/imageButtonbf"
     android:layout_below="@+id/imageButtonbc"
     android:layout_alignLeft="@+id/imageButtonbd"
-    android:layout_alignStart="@+id/imageButtonbd" />
+    android:layout_alignStart="@+id/imageButtonbd"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -525,7 +553,8 @@
     android:id="@+id/imageButtonbg"
     android:layout_below="@+id/imageButtonbe"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -534,7 +563,8 @@
     android:id="@+id/imageButtonbh"
     android:layout_below="@+id/imageButtonbf"
     android:layout_alignLeft="@+id/imageButtonbf"
-    android:layout_alignStart="@+id/imageButtonbf" />
+    android:layout_alignStart="@+id/imageButtonbf"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -542,7 +572,8 @@
     android:id="@+id/imageButtonbi"
     android:layout_below="@+id/imageButtonbg"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -550,7 +581,8 @@
     android:id="@+id/imageButtonbj"
     android:layout_below="@+id/imageButtonbg"
     android:layout_toLeftOf="@+id/imageButtonbi"
-    android:layout_toStartOf="@+id/imageButtonbi" />
+    android:layout_toStartOf="@+id/imageButtonbi"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -558,7 +590,8 @@
     android:id="@+id/imageButtonbk"
     android:layout_below="@+id/imageButtonbi"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -566,7 +599,8 @@
     android:id="@+id/imageButtonbl"
     android:layout_below="@+id/imageButtonbj"
     android:layout_toLeftOf="@+id/imageButtonbk"
-    android:layout_toStartOf="@+id/imageButtonbk" />
+    android:layout_toStartOf="@+id/imageButtonbk"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -574,7 +608,8 @@
     android:id="@+id/imageButtonbm"
     android:layout_below="@+id/imageButtonbk"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -582,7 +617,8 @@
     android:id="@+id/imageButtonbn"
     android:layout_below="@+id/imageButtonbk"
     android:layout_toLeftOf="@+id/imageButtonbm"
-    android:layout_toStartOf="@+id/imageButtonbm" />
+    android:layout_toStartOf="@+id/imageButtonbm"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -590,7 +626,8 @@
     android:id="@+id/imageButtonbo"
     android:layout_below="@+id/imageButtonbm"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -598,7 +635,8 @@
     android:id="@+id/imageButtonbp"
     android:layout_below="@+id/imageButtonbm"
     android:layout_toLeftOf="@+id/imageButtonbo"
-    android:layout_toStartOf="@+id/imageButtonbo" />
+    android:layout_toStartOf="@+id/imageButtonbo"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -606,7 +644,8 @@
     android:id="@+id/imageButtonbq"
     android:layout_below="@+id/imageButtonbo"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -614,7 +653,8 @@
     android:id="@+id/imageButtonbr"
     android:layout_below="@+id/imageButtonbo"
     android:layout_toLeftOf="@+id/imageButtonbq"
-    android:layout_toStartOf="@+id/imageButtonbq" />
+    android:layout_toStartOf="@+id/imageButtonbq"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -622,7 +662,8 @@
     android:id="@+id/imageButtonbs"
     android:layout_below="@+id/imageButtonbq"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -631,7 +672,8 @@
     android:id="@+id/imageButtonbt"
     android:layout_below="@+id/imageButtonbq"
     android:layout_toLeftOf="@+id/imageButtonbs"
-    android:layout_toStartOf="@+id/imageButtonbs" />
+    android:layout_toStartOf="@+id/imageButtonbs"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -640,7 +682,8 @@
     android:id="@+id/imageButtonbu"
     android:layout_below="@+id/imageButtonbs"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -648,7 +691,8 @@
     android:id="@+id/imageButtonbv"
     android:layout_below="@+id/imageButtonbs"
     android:layout_toLeftOf="@+id/imageButtonbu"
-    android:layout_toStartOf="@+id/imageButtonbu" />
+    android:layout_toStartOf="@+id/imageButtonbu"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -657,7 +701,8 @@
     android:id="@+id/imageButtonbw"
     android:layout_below="@+id/imageButtonbu"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -666,7 +711,8 @@
     android:id="@+id/imageButtonbx"
     android:layout_below="@+id/imageButtonbu"
     android:layout_alignLeft="@+id/imageButtonbv"
-    android:layout_alignStart="@+id/imageButtonbv" />
+    android:layout_alignStart="@+id/imageButtonbv"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -675,7 +721,8 @@
     android:id="@+id/imageButtonby"
     android:layout_below="@+id/imageButtonbw"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -684,7 +731,8 @@
     android:id="@+id/imageButtonbz"
     android:layout_below="@+id/imageButtonbw"
     android:layout_alignLeft="@+id/imageButtonbx"
-    android:layout_alignStart="@+id/imageButtonbx" />
+    android:layout_alignStart="@+id/imageButtonbx"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -692,7 +740,8 @@
     android:id="@+id/imageButtonca"
     android:layout_below="@+id/imageButtonby"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -701,7 +750,8 @@
     android:id="@+id/imageButtoncb"
     android:layout_below="@+id/imageButtonbz"
     android:layout_toLeftOf="@+id/imageButtonca"
-    android:layout_toStartOf="@+id/imageButtonca" />
+    android:layout_toStartOf="@+id/imageButtonca"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -709,7 +759,8 @@
     android:id="@+id/imageButtoncc"
     android:layout_below="@+id/imageButtonca"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -718,7 +769,8 @@
     android:id="@+id/imageButtoncd"
     android:layout_below="@+id/imageButtonca"
     android:layout_toLeftOf="@+id/imageButtoncc"
-    android:layout_toStartOf="@+id/imageButtoncc" />
+    android:layout_toStartOf="@+id/imageButtoncc"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -726,7 +778,8 @@
     android:id="@+id/imageButtonce"
     android:layout_below="@+id/imageButtoncc"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 
 <ImageButton
@@ -736,7 +789,8 @@
     android:id="@+id/imageButtoncf"
     android:layout_below="@+id/imageButtoncc"
     android:layout_alignLeft="@+id/imageButtoncd"
-    android:layout_alignStart="@+id/imageButtoncd" />
+    android:layout_alignStart="@+id/imageButtoncd"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -745,7 +799,8 @@
     android:id="@+id/imageButtoncg"
     android:layout_below="@+id/imageButtonce"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -754,7 +809,8 @@
     android:id="@+id/imageButtonch"
     android:layout_below="@+id/imageButtoncf"
     android:layout_alignLeft="@+id/imageButtoncf"
-    android:layout_alignStart="@+id/imageButtoncf" />
+    android:layout_alignStart="@+id/imageButtoncf"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -762,7 +818,8 @@
     android:id="@+id/imageButtonci"
     android:layout_below="@+id/imageButtoncg"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -770,7 +827,8 @@
     android:id="@+id/imageButtoncj"
     android:layout_below="@+id/imageButtoncg"
     android:layout_toLeftOf="@+id/imageButtonci"
-    android:layout_toStartOf="@+id/imageButtonci" />
+    android:layout_toStartOf="@+id/imageButtonci"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -778,7 +836,8 @@
     android:id="@+id/imageButtonck"
     android:layout_below="@+id/imageButtonci"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -786,7 +845,8 @@
     android:id="@+id/imageButtoncl"
     android:layout_below="@+id/imageButtoncj"
     android:layout_toLeftOf="@+id/imageButtonck"
-    android:layout_toStartOf="@+id/imageButtonck" />
+    android:layout_toStartOf="@+id/imageButtonck"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -794,7 +854,8 @@
     android:id="@+id/imageButtoncm"
     android:layout_below="@+id/imageButtonck"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -803,7 +864,8 @@
     android:id="@+id/imageButtoncn"
     android:layout_below="@+id/imageButtonck"
     android:layout_toLeftOf="@+id/imageButtoncm"
-    android:layout_toStartOf="@+id/imageButtoncm" />
+    android:layout_toStartOf="@+id/imageButtoncm"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -811,7 +873,8 @@
     android:id="@+id/imageButtonco"
     android:layout_below="@+id/imageButtoncm"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -819,7 +882,8 @@
     android:id="@+id/imageButtoncp"
     android:layout_below="@+id/imageButtoncm"
     android:layout_toLeftOf="@+id/imageButtonco"
-    android:layout_toStartOf="@+id/imageButtonco" />
+    android:layout_toStartOf="@+id/imageButtonco"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -827,7 +891,8 @@
     android:id="@+id/imageButtoncq"
     android:layout_below="@+id/imageButtonco"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -835,7 +900,8 @@
     android:id="@+id/imageButtoncr"
     android:layout_below="@+id/imageButtonco"
     android:layout_toLeftOf="@+id/imageButtoncq"
-    android:layout_toStartOf="@+id/imageButtoncq" />
+    android:layout_toStartOf="@+id/imageButtoncq"
+    android:background="@android:color/transparent" />
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -843,7 +909,8 @@
     android:id="@+id/imageButtoncs"
     android:layout_below="@+id/imageButtoncq"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -852,7 +919,8 @@
     android:id="@+id/imageButtonct"
     android:layout_below="@+id/imageButtoncq"
     android:layout_toLeftOf="@+id/imageButtoncs"
-    android:layout_toStartOf="@+id/imageButtoncs" />
+    android:layout_toStartOf="@+id/imageButtoncs"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -861,7 +929,8 @@
     android:id="@+id/imageButtoncu"
     android:layout_below="@+id/imageButtoncs"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
 
 <ImageButton
     android:layout_width="wrap_content"
@@ -871,6 +940,37 @@
     android:layout_marginTop="21dp"
     android:layout_below="@+id/textView"
     android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/h"
+        android:id="@+id/imageButtonh"
+        android:layout_below="@+id/imageButtone"
+        android:layout_alignLeft="@+id/imageButtonf"
+        android:layout_alignStart="@+id/imageButtonf"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/i"
+    android:id="@+id/imageButtoni"
+        android:layout_below="@+id/imageButtong"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/l"
+        android:id="@+id/imageButtonl"
+        android:layout_below="@+id/imageButtonj"
+        android:layout_toLeftOf="@+id/imageButtonk"
+        android:layout_toStartOf="@+id/imageButtonk"
+        android:background="@android:color/transparent" />
 </RelativeLayout>
     </ScrollView>

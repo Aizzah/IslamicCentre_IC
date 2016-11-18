@@ -35,19 +35,11 @@
         <activity android:name=".doa.mendapatmimipibaik" />
         <activity android:name=".doa.turunhujan" />
         <activity android:name=".doa.setelahhujan" />
+        <activity android:name=".Tajwid" />
         <activity android:name=".Hijaiyah" />
         <activity android:name=".Asmaulhusna" />
         <activity android:name=".hadist" />
-        <activity android:name=".alquran" />
-        <activity android:name=".Tajwid.Tajwid" />
-        <activity android:name=".tajwid.Tajwid" />
-        <activity android:name=".tajwid.idghambigunah" />
-        <activity android:name=".tajwid.tajwid" />
-        <activity android:name=".tajwid.idghombilaghunah" />
-        <activity android:name=".tajwid.Idzhar" />
-        <activity android:name=".tajwid.Iqlab" />
-        <activity android:name=".tajwid.Ikhfa" />
-        <activity android:name=".tajwid.idghommimi"></activity>
+        <activity android:name=".alquran"></activity>
     </application>
 
 </manifest>

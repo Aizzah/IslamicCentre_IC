@@ -131,6 +131,36 @@ public class doa extends AppCompatActivity {
                 startActivity(new Intent(doa.this, setelahhujan.class));
             }
         });
+        findViewById(R.id.adaangin).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, adaangin.class));
+            }
+        });
+        findViewById(R.id.sblmbljr).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, sebelumbelajar.class));
+            }
+        });
+        findViewById(R.id.ssdhbljr).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, sesudahbelajar.class));
+            }
+        });
+        findViewById(R.id.pagihari).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, pagihari.class));
+            }
+        });
+        findViewById(R.id.sorehari).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(doa.this, sorehari.class));
+            }
+        });
     }
 
     @Override
