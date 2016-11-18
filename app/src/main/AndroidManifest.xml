@@ -38,7 +38,8 @@
         <activity android:name=".Hijaiyah" />
         <activity android:name=".Asmaulhusna" />
         <activity android:name=".hadist" />
-        <activity android:name=".alquran"></activity>
+        <activity android:name=".alquran" />
+        <activity android:name=".Tajwid.Tajwid"></activity>
     </application>
 
 </manifest>

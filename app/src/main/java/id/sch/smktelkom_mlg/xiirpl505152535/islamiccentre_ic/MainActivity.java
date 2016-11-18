@@ -5,8 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.Tajwid.Tajwid;
 import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.doa;
-import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.sebelummakan;
 
 public class MainActivity extends AppCompatActivity {
 

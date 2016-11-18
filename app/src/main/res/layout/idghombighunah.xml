@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <TextView
         android:text="Idghom Bighunah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView77"
+        android:textSize="20sp"
+        android:textColor="?android:attr/colorForeground"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Idghom     : memasukkan
+                      Bighunnah : dengan mendengung
+                      Artinya: apabila ada Nun sukun
+                      atau Tanwin bertemu dengan salah
+                      satu huruf hijaiyyah yang berjumlah
+                       4 huruf, antara lain:ي  ن م و atau
+                       biasa di singkat dengan bunyi يَنْمُوْ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView78"
         android:textSize="20sp"
         android:textColor="?android:attr/colorForeground"
         android:layout_marginTop="19dp"
