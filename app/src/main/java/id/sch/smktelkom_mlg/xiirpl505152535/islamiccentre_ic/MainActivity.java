@@ -7,6 +7,7 @@ import android.view.View;
 
 
 import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.doa;
+import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.hadist.hadist;
 import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.tajwid;
 
 public class MainActivity extends AppCompatActivity {
