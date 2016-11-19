@@ -972,5 +972,6 @@
         android:layout_toLeftOf="@+id/imageButtonk"
         android:layout_toStartOf="@+id/imageButtonk"
         android:background="@android:color/transparent" />
+
 </RelativeLayout>
     </ScrollView>
