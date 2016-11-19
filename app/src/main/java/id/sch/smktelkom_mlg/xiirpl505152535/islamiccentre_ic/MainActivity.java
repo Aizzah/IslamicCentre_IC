@@ -5,8 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+
 import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.doa;
-import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.doa.sebelummakan;
+import id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.tajwid;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.buttonTajwid).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Tajwid.class));
+                startActivity(new Intent(MainActivity.this, tajwid.class));
             }
         });
         findViewById(R.id.buttonHijaiyah).setOnClickListener(new View.OnClickListener() {

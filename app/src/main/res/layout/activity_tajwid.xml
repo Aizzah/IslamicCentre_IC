@@ -8,6 +8,60 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.Tajwid">
+    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.tajwid">
+
+    <Button
+    android:text="Idghom Bighunah"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/idgmbgnh"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Idghom Bilaghunah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idgmblgnh"
+        android:layout_below="@+id/idgmbgnh"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+    android:text="Idzhar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/idzhr"
+        android:layout_below="@+id/idgmblgnh"
+        android:layout_alignRight="@+id/idgmblgnh"
+        android:layout_alignEnd="@+id/idgmblgnh" />
+
+    <Button
+        android:text="Iqlab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iqlb"
+        android:layout_below="@+id/idzhr"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Ikhfa'"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ikhfa"
+        android:layout_below="@+id/iqlb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Idghom Mimi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idghmmm"
+        android:layout_below="@+id/ikhfa"
+        android:layout_alignRight="@+id/idzhr"
+        android:layout_alignEnd="@+id/idzhr" />
+
 
 </RelativeLayout>
