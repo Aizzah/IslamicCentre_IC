@@ -41,7 +41,8 @@
         <activity android:name=".hadist.hadist" />
         <activity android:name=".alquran" />
         <activity android:name=".hadist.Kebersihan" />
-        <activity android:name=".hadist.Niat"></activity>
+        <activity android:name=".hadist.Niat" />
+        <activity android:name=".hadist.MenutupAurat"></activity>
     </application>
 
 </manifest>

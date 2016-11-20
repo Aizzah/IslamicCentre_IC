@@ -35,6 +35,15 @@ public class hadist extends AppCompatActivity {
                 startActivity(new Intent(hadist.this, Niat.class));
             }
         });
+
+        findViewById(R.id.buttonMenutupAurat).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, MenutupAurat.class));
+            }
+        });
     }
 
     @Override
