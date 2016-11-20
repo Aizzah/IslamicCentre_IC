@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_berkata_baik"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.hadist.BerkataBaik">
+
+    <TextView
+        android:text="HADIST BERKATA BAIK/DIAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textSize="20sp"
+        android:textColor="?android:attr/colorForeground"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:text="مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ اْلآخِرِ فَليَقُلْ خَيْرًا أَوْ لِيَصْمُت"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="13dp"/>
+
+    <TextView
+        android:text="Man Kaana yu'minu billahi wal yaumil akhiri falyaqul khayran aw liyashmut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textVie27"
+        android:textSize="14sp" />
+
+    <TextView
+        android:text="Artinya : “Barangsiapa yg beriman kepada Allah dan hari akhir maka hendaknya dia berkata yg baik atau diam”"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:textSize="17sp"
+        android:layout_marginTop="17dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Kembali"
+        android:layout_width="76dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="46dp"
+        android:id="@+id/buttonBackBerkataB"
+        android:background="@android:color/holo_blue_bright" />
+</LinearLayout>
