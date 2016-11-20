@@ -12,6 +12,8 @@ package id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic;
 public class Asmaulhusna extends AppCompatActivity {
             private static final String isPlaying = "Media is Playing";
             private MediaPlayer player;
+    private ImageButton imageButtonplay;
+    private ImageButton imageButtonpause;
             private ImageButton imageButtona;
             private ImageButton imageButtonb;
             private ImageButton imageButtonc;
@@ -811,6 +813,20 @@ public class Asmaulhusna extends AppCompatActivity {
                         playSound(99);
                     }
                 });
+                imageButtonplay = (ImageButton)this.findViewById(R.id.imageButtonplay);
+                imageButtonplay.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View arg0) {
+                        playSound(100);
+                    }
+                });
+                imageButtonplay = (ImageButton)this.findViewById(R.id.imageButtonpause);
+                imageButtonplay.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View arg0) {
+                        onPause();
+                    }
+                });
             }
     @Override
     public void onPause(){
@@ -1221,6 +1237,10 @@ public class Asmaulhusna extends AppCompatActivity {
           else if (arg==99){
             Toast.makeText(this,isPlaying+" ", Toast.LENGTH_LONG).show();
             player = MediaPlayer.create(this,R.raw.cu);
+        }
+        else if (arg==100){
+            Toast.makeText(this,isPlaying+" ", Toast.LENGTH_LONG).show();
+            player = MediaPlayer.create(this,R.raw.asmaulhusna);
         }
         player.setLooping(false);
         player.start();

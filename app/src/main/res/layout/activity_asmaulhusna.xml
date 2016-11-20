@@ -17,15 +17,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.Asmaulhusna"
     android:background="@android:color/white">
-<TextView
-    android:text="Asmaul Husna"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/textView"
-    android:textSize="36sp"
-    android:layout_centerHorizontal="true" />
 
-<ImageButton
+    <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:srcCompat="@drawable/b"
@@ -972,6 +965,38 @@
         android:layout_toLeftOf="@+id/imageButtonk"
         android:layout_toStartOf="@+id/imageButtonk"
         android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_media_pause"
+        android:layout_below="@+id/imageButtonplay"
+        android:layout_alignLeft="@+id/imageButtonplay"
+        android:layout_alignStart="@+id/imageButtonplay"
+        android:id="@+id/imageButtonpause"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:text="Asmaul Husna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="36sp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageButtonb"
+        android:layout_alignStart="@+id/imageButtonb" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:id="@+id/imageButtonplay"
+        android:background="@android:color/background_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
     </ScrollView>

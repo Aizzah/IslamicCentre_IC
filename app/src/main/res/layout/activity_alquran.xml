@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout
     android:id="@+id/activity_alquran"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,6 +15,972 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.alquran">
+    tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.alquran.alquran">
+
+    <Button
+        android:text="Al-Fatihah"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/a"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="An-Nisa'"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_alignRight="@+id/c"
+        android:layout_alignEnd="@+id/c"
+        android:id="@+id/d"
+        android:layout_alignLeft="@+id/c"
+        android:layout_alignStart="@+id/c" />
+
+    <Button
+        android:text="Al-Maaidah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d"
+        android:layout_alignLeft="@+id/d"
+        android:layout_alignStart="@+id/d"
+        android:id="@+id/e"
+        android:layout_alignRight="@+id/d"
+        android:layout_alignEnd="@+id/d" />
+
+    <Button
+        android:text="Al-An'aam"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/f" />
+
+    <Button
+        android:text="Al-Baqarah"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b"
+        android:layout_below="@+id/a"
+        android:layout_alignLeft="@+id/c"
+        android:layout_alignStart="@+id/c" />
+
+    <Button
+        android:text="Al-Imran"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/c"
+        android:layout_below="@+id/b"
+        android:layout_alignLeft="@+id/a"
+        android:layout_alignStart="@+id/a" />
+
+    <Button
+        android:text="Al A'raf"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/g"
+        android:layout_below="@+id/f"
+        android:layout_alignLeft="@+id/f"
+        android:layout_alignStart="@+id/f" />
+
+    <Button
+        android:text="Al Anfal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/h"
+        android:layout_below="@+id/g"
+        android:layout_alignLeft="@+id/g"
+        android:layout_alignStart="@+id/g" />
+    <Button
+        android:text="AT TAWBAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/i"
+        android:layout_below="@+id/h"
+        android:layout_alignLeft="@+id/h"
+        android:layout_alignStart="@+id/h" />
+    <Button
+        android:text="YUNUS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/j"
+        android:layout_below="@+id/i"
+        android:layout_alignLeft="@+id/i"
+        android:layout_alignStart="@+id/i" />
+    <Button
+        android:text="HUD"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/k"
+        android:layout_below="@+id/j"
+        android:layout_alignLeft="@+id/j"
+        android:layout_alignStart="@+id/j" />
+    <Button
+        android:text="YUSUF"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/l"
+        android:layout_below="@+id/k"
+        android:layout_alignLeft="@+id/k"
+        android:layout_alignStart="@+id/k" />
+    <Button
+        android:text="AR RA'D"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/m"
+        android:layout_below="@+id/l"
+        android:layout_alignLeft="@+id/l"
+        android:layout_alignStart="@+id/l" />
+    <Button
+        android:text="IBRAHIM"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/n"
+        android:layout_below="@+id/m"
+        android:layout_alignLeft="@+id/m"
+        android:layout_alignStart="@+id/m" />
+    <Button
+        android:text="AL HIJR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/o"
+        android:layout_below="@+id/n"
+        android:layout_alignLeft="@+id/n"
+        android:layout_alignStart="@+id/n" />
+    <Button
+        android:text="AN NAHL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/p"
+        android:layout_below="@+id/o"
+        android:layout_alignLeft="@+id/o"
+        android:layout_alignStart="@+id/o" />
+    <Button
+        android:text="AL ISRA'"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/q"
+        android:layout_below="@+id/p"
+        android:layout_alignLeft="@+id/p"
+        android:layout_alignStart="@+id/p" />
+    <Button
+        android:text="AL KAHFI"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/r"
+        android:layout_below="@+id/q"
+        android:layout_alignLeft="@+id/q"
+        android:layout_alignStart="@+id/q" />
+    <Button
+        android:text="MARYAM"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/s"
+        android:layout_below="@+id/r"
+        android:layout_alignLeft="@+id/r"
+        android:layout_alignStart="@+id/r" />
+    <Button
+        android:text="TA HA"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/t"
+        android:layout_below="@+id/s"
+        android:layout_alignLeft="@+id/s"
+        android:layout_alignStart="@+id/s" />
+    <Button
+        android:text="AL ANBIYA'"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/u"
+        android:layout_below="@+id/t"
+        android:layout_alignLeft="@+id/t"
+        android:layout_alignStart="@+id/t" />
+    <Button
+        android:text="AL HAJJ"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/v"
+        android:layout_below="@+id/u"
+        android:layout_alignLeft="@+id/u"
+        android:layout_alignStart="@+id/u" />
+    <Button
+        android:text="AL MU'MINUN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/w"
+        android:layout_below="@+id/v"
+        android:layout_alignLeft="@+id/v"
+        android:layout_alignStart="@+id/v" />
+    <Button
+        android:text="AN NUR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/x"
+        android:layout_below="@+id/w"
+        android:layout_alignLeft="@+id/w"
+        android:layout_alignStart="@+id/w" />
+    <Button
+        android:text="AL FURQAN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/y"
+        android:layout_below="@+id/x"
+        android:layout_alignLeft="@+id/x"
+        android:layout_alignStart="@+id/x" />
+    <Button
+        android:text="ASY SYU'ARA'"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/z"
+        android:layout_below="@+id/y"
+        android:layout_alignLeft="@+id/y"
+        android:layout_alignStart="@+id/y" />
+    <Button
+        android:text="AN NAML"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/aa"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="AR RUM'"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ac"
+        android:layout_alignRight="@+id/ac"
+        android:layout_alignEnd="@+id/ac"
+        android:id="@+id/ad"
+        android:layout_alignLeft="@+id/ac"
+        android:layout_alignStart="@+id/ac" />
+
+    <Button
+        android:text="LUQMAN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ad"
+        android:layout_alignLeft="@+id/ad"
+        android:layout_alignStart="@+id/ad"
+        android:id="@+id/ae"
+        android:layout_alignRight="@+id/ad"
+        android:layout_alignEnd="@+id/ad" />
+
+    <Button
+        android:text="AS SAJDAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ae"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/af" />
+
+    <Button
+        android:text="Al QOSSOS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ab"
+        android:layout_below="@+id/aa"
+        android:layout_alignLeft="@+id/ac"
+        android:layout_alignStart="@+id/ac" />
+
+    <Button
+        android:text="Al ANKABUT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ac"
+        android:layout_below="@+id/ab"
+        android:layout_alignLeft="@+id/aa"
+        android:layout_alignStart="@+id/aa" />
+
+    <Button
+        android:text="Al AHZAB"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ag"
+        android:layout_below="@+id/af"
+        android:layout_alignLeft="@+id/af"
+        android:layout_alignStart="@+id/af" />
+
+    <Button
+        android:text="SABA'"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ah"
+        android:layout_below="@+id/ag"
+        android:layout_alignLeft="@+id/ag"
+        android:layout_alignStart="@+id/ag" />
+    <Button
+        android:text="FATHIR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ai"
+        android:layout_below="@+id/ah"
+        android:layout_alignLeft="@+id/ah"
+        android:layout_alignStart="@+id/ah" />
+    <Button
+        android:text="YA SIN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/aj"
+        android:layout_below="@+id/ai"
+        android:layout_alignLeft="@+id/ai"
+        android:layout_alignStart="@+id/ai" />
+    <Button
+        android:text="AS SAFFAT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ak"
+        android:layout_below="@+id/aj"
+        android:layout_alignLeft="@+id/aj"
+        android:layout_alignStart="@+id/aj" />
+    <Button
+        android:text="SAD"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/al"
+        android:layout_below="@+id/ak"
+        android:layout_alignLeft="@+id/ak"
+        android:layout_alignStart="@+id/ak" />
+    <Button
+        android:text="AZ ZUMAR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/am"
+        android:layout_below="@+id/al"
+        android:layout_alignLeft="@+id/al"
+        android:layout_alignStart="@+id/al" />
+    <Button
+        android:text="AL MU'MIN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/an"
+        android:layout_below="@+id/am"
+        android:layout_alignLeft="@+id/am"
+        android:layout_alignStart="@+id/am" />
+    <Button
+        android:text="HA MIM AS SAJDAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ao"
+        android:layout_below="@+id/an"
+        android:layout_alignLeft="@+id/an"
+        android:layout_alignStart="@+id/an" />
+    <Button
+        android:text="ASY SYURA"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ap"
+        android:layout_below="@+id/ao"
+        android:layout_alignLeft="@+id/ao"
+        android:layout_alignStart="@+id/ao" />
+    <Button
+        android:text="AZ ZUKHRUF"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/aq"
+        android:layout_below="@+id/ap"
+        android:layout_alignLeft="@+id/ap"
+        android:layout_alignStart="@+id/ap" />
+    <Button
+        android:text="AD DUKHAN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ar"
+        android:layout_below="@+id/aq"
+        android:layout_alignLeft="@+id/aq"
+        android:layout_alignStart="@+id/aq" />
+    <Button
+        android:text="AL JASIYAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/as"
+        android:layout_below="@+id/ar"
+        android:layout_alignLeft="@+id/ar"
+        android:layout_alignStart="@+id/ar" />
+    <Button
+        android:text="AL AHQAF"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/at"
+        android:layout_below="@+id/as"
+        android:layout_alignLeft="@+id/as"
+        android:layout_alignStart="@+id/as" />
+    <Button
+        android:text="MUHAMMAD"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/au"
+        android:layout_below="@+id/at"
+        android:layout_alignLeft="@+id/at"
+        android:layout_alignStart="@+id/at" />
+    <Button
+        android:text="AL FATH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/av"
+        android:layout_below="@+id/au"
+        android:layout_alignLeft="@+id/au"
+        android:layout_alignStart="@+id/au" />
+    <Button
+        android:text="AL HUJARAT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw"
+        android:layout_below="@+id/av"
+        android:layout_alignLeft="@+id/av"
+        android:layout_alignStart="@+id/av" />
+    <Button
+        android:text="QAF"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ax"
+        android:layout_below="@+id/aw"
+        android:layout_alignLeft="@+id/aw"
+        android:layout_alignStart="@+id/aw" />
+    <Button
+        android:text="AZ DZARIYAT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ay"
+        android:layout_below="@+id/ax"
+        android:layout_alignLeft="@+id/ax"
+        android:layout_alignStart="@+id/ax" />
+    <Button
+        android:text="AT TUR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/az"
+        android:layout_below="@+id/ay"
+        android:layout_alignLeft="@+id/ay"
+        android:layout_alignStart="@+id/ay" />
+    <Button
+        android:text="AN NAJM"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ba"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="AL QOMAR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bb"
+        android:layout_below="@+id/ba"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:text="AR RAHMAN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bc"
+        android:layout_below="@+id/bb"
+        android:layout_alignLeft="@+id/ba"
+        android:layout_alignStart="@+id/ba" />
+
+
+    <Button
+        android:text="AL WAQIAH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ac"
+        android:layout_alignRight="@+id/ac"
+        android:layout_alignEnd="@+id/ac"
+        android:id="@+id/bd"
+        android:layout_alignLeft="@+id/ac"
+        android:layout_alignStart="@+id/ac" />
+
+    <Button
+        android:text="AL HADID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bd"
+        android:layout_alignLeft="@+id/bd"
+        android:layout_alignStart="@+id/bd"
+        android:id="@+id/be"
+        android:layout_alignRight="@+id/bd"
+        android:layout_alignEnd="@+id/ad" />
+
+    <Button
+        android:text="Al MUJADILAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/be"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bf" />
+
+
+    <Button
+        android:text="AL HASYR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bg"
+        android:layout_below="@+id/bf"
+        android:layout_alignLeft="@+id/bf"
+        android:layout_alignStart="@+id/bf" />
+
+    <Button
+        android:text="AL MUMTAHANAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bh"
+        android:layout_below="@+id/bg"
+        android:layout_alignLeft="@+id/bg"
+        android:layout_alignStart="@+id/bg" />
+    <Button
+        android:text="AS SAFF"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bi"
+        android:layout_below="@+id/bh"
+        android:layout_alignLeft="@+id/bh"
+        android:layout_alignStart="@+id/bh" />
+    <Button
+        android:text="AL JUMU'AH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bj"
+        android:layout_below="@+id/bi"
+        android:layout_alignLeft="@+id/bi"
+        android:layout_alignStart="@+id/bi" />
+    <Button
+        android:text="AL MUNAFIQUN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bk"
+        android:layout_below="@+id/bj"
+        android:layout_alignLeft="@+id/bj"
+        android:layout_alignStart="@+id/bj" />
+    <Button
+        android:text="AT TAQABUN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bl"
+        android:layout_below="@+id/bk"
+        android:layout_alignLeft="@+id/bk"
+        android:layout_alignStart="@+id/bk" />
+    <Button
+        android:text="AT TALAQ"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bm"
+        android:layout_below="@+id/bl"
+        android:layout_alignLeft="@+id/bl"
+        android:layout_alignStart="@+id/bl" />
+    <Button
+        android:text="AT TAHRIM"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bn"
+        android:layout_below="@+id/bm"
+        android:layout_alignLeft="@+id/bm"
+        android:layout_alignStart="@+id/bm" />
+    <Button
+        android:text="AL MULK"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bo"
+        android:layout_below="@+id/bn"
+        android:layout_alignLeft="@+id/bn"
+        android:layout_alignStart="@+id/bn" />
+    <Button
+        android:text="AL QALAM"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bp"
+        android:layout_below="@+id/bo"
+        android:layout_alignLeft="@+id/bo"
+        android:layout_alignStart="@+id/bo" />
+    <Button
+        android:text="AL HAQQAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bq"
+        android:layout_below="@+id/bp"
+        android:layout_alignLeft="@+id/bp"
+        android:layout_alignStart="@+id/bp" />
+    <Button
+        android:text="AL MA'ARIJ"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/br"
+        android:layout_below="@+id/bq"
+        android:layout_alignLeft="@+id/bq"
+        android:layout_alignStart="@+id/bq" />
+    <Button
+        android:text="NUH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bs"
+        android:layout_below="@+id/br"
+        android:layout_alignLeft="@+id/br"
+        android:layout_alignStart="@+id/br" />
+    <Button
+        android:text="AL JINN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:layout_below="@+id/bs"
+        android:layout_alignLeft="@+id/bs"
+        android:layout_alignStart="@+id/bs" />
+    <Button
+        android:text="AL MUZZAMMIL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bu"
+        android:layout_below="@+id/bt"
+        android:layout_alignLeft="@+id/bt"
+        android:layout_alignStart="@+id/bt" />
+    <Button
+        android:text="AL MUDDASSIR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bv"
+        android:layout_below="@+id/bu"
+        android:layout_alignLeft="@+id/bu"
+        android:layout_alignStart="@+id/bu" />
+    <Button
+        android:text="AL QIYAMAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bw"
+        android:layout_below="@+id/bv"
+        android:layout_alignLeft="@+id/bv"
+        android:layout_alignStart="@+id/bv" />
+    <Button
+        android:text="AL INSAN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bx"
+        android:layout_below="@+id/bw"
+        android:layout_alignLeft="@+id/bw"
+        android:layout_alignStart="@+id/bw" />
+    <Button
+        android:text="AR MURSALAT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/by"
+        android:layout_below="@+id/bx"
+        android:layout_alignLeft="@+id/bx"
+        android:layout_alignStart="@+id/bx" />
+    <Button
+        android:text="AN NABA'"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bz"
+        android:layout_below="@+id/by"
+        android:layout_alignLeft="@+id/by"
+        android:layout_alignStart="@+id/by" />
+    <Button
+        android:text="AN nazi'at"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ca"
+        android:layout_below="@+id/bz"
+        android:layout_alignLeft="@+id/bz"
+        android:layout_alignStart="@+id/bz" />
+    <Button
+        android:text="'ABASA"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb"
+        android:layout_below="@+id/ca"
+        android:layout_alignLeft="@+id/cc"
+        android:layout_alignStart="@+id/cc" />
+
+    <Button
+        android:text="AT TAKWIR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc"
+        android:layout_below="@+id/cb"
+        android:layout_alignLeft="@+id/ca"
+        android:layout_alignStart="@+id/ca" />
+
+
+    <Button
+        android:text="AL INFITAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc"
+        android:layout_alignRight="@+id/cc"
+        android:layout_alignEnd="@+id/cc"
+        android:id="@+id/cd"
+        android:layout_alignLeft="@+id/cc"
+        android:layout_alignStart="@+id/cc" />
+
+    <Button
+        android:text="AT TATFIF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cd"
+        android:layout_alignLeft="@+id/cd"
+        android:layout_alignStart="@+id/cd"
+        android:id="@+id/ce"
+        android:layout_alignRight="@+id/cd"
+        android:layout_alignEnd="@+id/cd" />
+
+    <Button
+        android:text="Al INSYIQAQ"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ce"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cf" />
+    <Button
+        android:text="AL BURUJ"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cg"
+        android:layout_below="@+id/cf"
+        android:layout_alignLeft="@+id/cf"
+        android:layout_alignStart="@+id/cf" />
+
+    <Button
+        android:text="AT TARIQ"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch"
+        android:layout_below="@+id/cg"
+        android:layout_alignLeft="@+id/cg"
+        android:layout_alignStart="@+id/cg" />
+    <Button
+        android:text="AL A'LA"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ci"
+        android:layout_below="@+id/ch"
+        android:layout_alignLeft="@+id/ch"
+        android:layout_alignStart="@+id/ch" />
+    <Button
+        android:text="AL GASYIYAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cj"
+        android:layout_below="@+id/ci"
+        android:layout_alignLeft="@+id/ci"
+        android:layout_alignStart="@+id/ci" />
+    <Button
+        android:text="AL FAJR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ck"
+        android:layout_below="@+id/cj"
+        android:layout_alignLeft="@+id/cj"
+        android:layout_alignStart="@+id/cj" />
+    <Button
+        android:text="AL BALAD"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cl"
+        android:layout_below="@+id/ck"
+        android:layout_alignLeft="@+id/ck"
+        android:layout_alignStart="@+id/ck" />
+    <Button
+        android:text="ASY SYAMS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cm"
+        android:layout_below="@+id/cl"
+        android:layout_alignLeft="@+id/cl"
+        android:layout_alignStart="@+id/cl" />
+    <Button
+        android:text="AL LAYL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cn"
+        android:layout_below="@+id/cm"
+        android:layout_alignLeft="@+id/cm"
+        android:layout_alignStart="@+id/cm" />
+    <Button
+        android:text="AD DHUHA"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/co"
+        android:layout_below="@+id/cn"
+        android:layout_alignLeft="@+id/cn"
+        android:layout_alignStart="@+id/cn" />
+    <Button
+        android:text="AL INSYIRAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cp"
+        android:layout_below="@+id/co"
+        android:layout_alignLeft="@+id/co"
+        android:layout_alignStart="@+id/co" />
+    <Button
+        android:text="AT TIN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cq"
+        android:layout_below="@+id/cp"
+        android:layout_alignLeft="@+id/cp"
+        android:layout_alignStart="@+id/cp" />
+    <Button
+        android:text="AL 'ALAQ"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cr"
+        android:layout_below="@+id/cq"
+        android:layout_alignLeft="@+id/cq"
+        android:layout_alignStart="@+id/cq" />
+    <Button
+        android:text="AL QADR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cs"
+        android:layout_below="@+id/cr"
+        android:layout_alignLeft="@+id/cr"
+        android:layout_alignStart="@+id/cr" />
+    <Button
+        android:text="AL BAYYINAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ct"
+        android:layout_below="@+id/cs"
+        android:layout_alignLeft="@+id/cs"
+        android:layout_alignStart="@+id/cs" />
+    <Button
+        android:text="AZ ZALZALAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cu"
+        android:layout_below="@+id/ct"
+        android:layout_alignLeft="@+id/ct"
+        android:layout_alignStart="@+id/ct" />
+    <Button
+        android:text="AD 'ADIYAT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv"
+        android:layout_below="@+id/cu"
+        android:layout_alignLeft="@+id/cu"
+        android:layout_alignStart="@+id/cu" />
+    <Button
+        android:text="AL QARIAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cw"
+        android:layout_below="@+id/cv"
+        android:layout_alignLeft="@+id/cv"
+        android:layout_alignStart="@+id/cv" />
+    <Button
+        android:text="AT TAKASUR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cx"
+        android:layout_below="@+id/cw"
+        android:layout_alignLeft="@+id/cw"
+        android:layout_alignStart="@+id/cw" />
+    <Button
+        android:text="AL 'ASR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cy"
+        android:layout_below="@+id/cx"
+        android:layout_alignLeft="@+id/cx"
+        android:layout_alignStart="@+id/cx" />
+    <Button
+        android:text="AL HUMAZAH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cz"
+        android:layout_below="@+id/cy"
+        android:layout_alignLeft="@+id/cy"
+        android:layout_alignStart="@+id/cy" />
+    <Button
+        android:text="AL fill"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/da"
+        android:layout_below="@+id/cz"
+        android:layout_alignLeft="@+id/cz"
+        android:layout_alignStart="@+id/cz" />
+
+    <Button
+        android:text="Al quraysy"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/db"
+        android:layout_below="@+id/da"
+        android:layout_alignLeft="@+id/dc"
+        android:layout_alignStart="@+id/dc" />
+
+    <Button
+        android:text="Al ma'un"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dc"
+        android:layout_below="@+id/db"
+        android:layout_alignLeft="@+id/da"
+        android:layout_alignStart="@+id/da" />
+
+    <Button
+        android:text="Al kaustar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dc"
+        android:layout_alignRight="@+id/dc"
+        android:layout_alignEnd="@+id/dc"
+        android:id="@+id/dd"
+        android:layout_alignLeft="@+id/dc"
+        android:layout_alignStart="@+id/dc" />
+
+    <Button
+        android:text="Al KAFIRUN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dd"
+        android:layout_alignLeft="@+id/dd"
+        android:layout_alignStart="@+id/dd"
+        android:id="@+id/de"
+        android:layout_alignRight="@+id/dd"
+        android:layout_alignEnd="@+id/dd" />
+
+    <Button
+        android:text="AN NASR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/de"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/df" />
+
+
+    <Button
+        android:text="Al LAHAB"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dg"
+        android:layout_below="@+id/df"
+        android:layout_alignLeft="@+id/df"
+        android:layout_alignStart="@+id/df" />
+
+    <Button
+        android:text="AL IKHLAS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dh"
+        android:layout_below="@+id/g"
+        android:layout_alignLeft="@+id/dg"
+        android:layout_alignStart="@+id/dg" />
+    <Button
+        android:text="AL FALAQ"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/di"
+        android:layout_below="@+id/dh"
+        android:layout_alignLeft="@+id/dh"
+        android:layout_alignStart="@+id/dh" />
+    <Button
+        android:text="AN NAS"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dj"
+        android:layout_below="@+id/di"
+        android:layout_alignLeft="@+id/di"
+        android:layout_alignStart="@+id/di" />
 
 </RelativeLayout>
+
+</ScrollView>
