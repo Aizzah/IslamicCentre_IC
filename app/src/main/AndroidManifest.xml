@@ -40,7 +40,8 @@
         <activity android:name=".Asmaulhusna" />
         <activity android:name=".hadist.hadist" />
         <activity android:name=".alquran" />
-        <activity android:name=".hadist.KeutamaanSenyum"></activity>
+        <activity android:name=".hadist.Kebersihan" />
+        <activity android:name=".hadist.Niat"></activity>
     </application>
 
 </manifest>
