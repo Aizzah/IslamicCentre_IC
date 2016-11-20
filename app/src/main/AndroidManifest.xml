@@ -46,7 +46,15 @@
         <activity android:name=".hadist.SalingMenyayangi" />
         <activity android:name=".hadist.Agama" />
         <activity android:name=".hadist.MenuntutIlmu" />
-        <activity android:name=".hadist.BerkataBaik"></activity>
+        <activity android:name=".hadist.BerkataBaik" />
+        <activity android:name=".hadist.Malu" />
+        <activity android:name=".hadist.MenyebarkanSalam" />
+        <activity android:name=".hadist.KemuliaanIbu" />
+        <activity android:name=".hadist.KeutamaanBelajarAlquran" />
+        <activity android:name=".hadist.MahaIndah" />
+        <activity android:name=".hadist.SholatTepatWaktu" />
+        <activity android:name=".hadist.KeutamaanDoa" />
+        <activity android:name=".hadist.TolongMenolong"></activity>
     </application>
 
 </manifest>

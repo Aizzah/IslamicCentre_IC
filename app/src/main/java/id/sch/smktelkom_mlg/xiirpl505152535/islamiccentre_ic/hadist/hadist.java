@@ -68,7 +68,79 @@ public class hadist extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                startActivity(new Intent(hadist.this, MenuntutIlmu.class));
+                startActivity(new Intent(hadist.this, BerkataBaik.class));
+            }
+        });
+
+        findViewById(R.id.buttonMalu).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, Malu.class));
+            }
+        });
+
+        findViewById(R.id.buttonMenyebarkanSalam).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, MenyebarkanSalam.class));
+            }
+        });
+
+        findViewById(R.id.buttonKemuliaanIbu).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, KemuliaanIbu.class));
+            }
+        });
+
+        findViewById(R.id.buttonKeutamaanBelajarAlquran).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, KeutamaanBelajarAlquran.class));
+            }
+        });
+
+        findViewById(R.id.buttonMahaIndah).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, MahaIndah.class));
+            }
+        });
+
+        findViewById(R.id.buttonSholatTepatWaktu).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, SholatTepatWaktu.class));
+            }
+        });
+
+        findViewById(R.id.buttonKeutamaanDoa).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, KeutamaanDoa.class));
+            }
+        });
+
+        findViewById(R.id.buttonTolongMenolong).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(hadist.this, TolongMenolong.class));
             }
         });
     }
