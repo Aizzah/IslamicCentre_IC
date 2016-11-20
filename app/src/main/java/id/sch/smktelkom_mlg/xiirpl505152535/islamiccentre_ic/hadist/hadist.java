@@ -15,14 +15,12 @@ public class hadist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hadist);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        findViewById(R.id.activity_keutamaansenyum).setOnClickListener(new View.OnClickListener()
+        findViewById(R.id.buttonKeutamaansenyum).setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                startActivity(new Intent(hadist.this, keutamaansenyum.class));
+                startActivity(new Intent(hadist.this, KeutamaanSenyum.class));
             }
         });
 

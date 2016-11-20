@@ -35,11 +35,12 @@
         <activity android:name=".doa.mendapatmimipibaik" />
         <activity android:name=".doa.turunhujan" />
         <activity android:name=".doa.setelahhujan" />
-        <activity android:name=".Tajwid" />
+        <activity android:name=".tajwid.tajwid" />
         <activity android:name=".Hijaiyah" />
         <activity android:name=".Asmaulhusna" />
         <activity android:name=".hadist.hadist" />
-        <activity android:name=".alquran"></activity>
+        <activity android:name=".alquran" />
+        <activity android:name=".hadist.KeutamaanSenyum"></activity>
     </application>
 
 </manifest>
