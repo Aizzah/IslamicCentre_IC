@@ -258,14 +258,12 @@
         android:layout_alignStart="@+id/aa" />
     <Button
         android:text="30.AR RUM'"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ac"
-        android:layout_alignRight="@+id/ac"
-        android:layout_alignEnd="@+id/ac"
         android:id="@+id/ad"
-        android:layout_alignLeft="@+id/ac"
-        android:layout_alignStart="@+id/ac" />
+        android:layout_below="@+id/ac"
+        android:layout_alignLeft="@+id/ab"
+        android:layout_alignStart="@+id/ab" />
 
     <Button
         android:text="31.LUQMAN"
@@ -481,12 +479,12 @@
         android:text="56.AL WAQIAH"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ac"
-        android:layout_alignRight="@+id/ac"
-        android:layout_alignEnd="@+id/ac"
+        android:layout_below="@+id/bc"
+        android:layout_alignRight="@+id/bc"
+        android:layout_alignEnd="@+id/bc"
         android:id="@+id/bd"
-        android:layout_alignLeft="@+id/ac"
-        android:layout_alignStart="@+id/ac" />
+        android:layout_alignLeft="@+id/bc"
+        android:layout_alignStart="@+id/bc" />
 
     <Button
         android:text="57.AL HADID"
