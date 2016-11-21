@@ -20,7 +20,7 @@
         android:text="List-list Hadist : "
         />
     <Button
-        android:text="HADIST KEBERSIHAN"
+        android:text="HADIST TENTANG KEBERSIHAN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -33,7 +33,7 @@
         android:background="@android:color/holo_blue_bright" />
 
     <Button
-        android:text="HADIST NIAT"
+        android:text="HADIST TENTANG NIAT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -46,7 +46,7 @@
         android:background="@android:color/holo_blue_bright" />
 
     <Button
-        android:text="HADIST MENUTUP AURAT"
+        android:text="HADIST TENTANG MENUTUP AURAT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -59,7 +59,7 @@
         android:background="@android:color/holo_blue_bright" />
 
     <Button
-        android:text="HADIST PERINTAH SALING MENYAYANGI"
+        android:text="HADIST TENTANG PERINTAH SALING MENYAYANGI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -85,7 +85,7 @@
         android:background="@android:color/holo_blue_bright" />
 
     <Button
-        android:text="HADIST MENUNTUT ILMU"
+        android:text="HADIST TENTANG MENUNTUT ILMU"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -98,7 +98,7 @@
         android:background="@android:color/holo_blue_bright" />
 
     <Button
-        android:text="HADIST BERKATA BAIK/DIAM"
+        android:text="HADIST TENTANG BERKATA BAIK/DIAM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -106,6 +106,110 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="207dp"
         android:id="@+id/buttonBerkataBaik"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="HADIST TENTANG MALU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="237dp"
+        android:id="@+id/buttonMalu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="HADIST TENTANG MENYEBARKAN SALAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="267dp"
+        android:id="@+id/buttonMenyebarkanSalam"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="HADIST TENTANG KEMULIAAN IBU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="297dp"
+        android:id="@+id/buttonKemuliaanIbu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="HADIST TENTANG KEUTAMAAN BELAJAR AL-QUR'AN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="327dp"
+        android:id="@+id/buttonKeutamaanBelajarAlquran"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="HADIST TENTANG ALLAH MAHA INDAH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="357dp"
+        android:id="@+id/buttonMahaIndah"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="HADIST TENTANG SHOLAT TEPAT WAKTUNYA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="387dp"
+        android:id="@+id/buttonSholatTepatWaktu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="HADIST TENTANG KEUTAMAAN DOA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="417dp"
+        android:id="@+id/buttonKeutamaanDoa"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="HADIST TENTANG TOLONG MENOLONG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="447dp"
+        android:id="@+id/buttonTolongMenolong"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:background="@android:color/holo_blue_bright" />
