@@ -10,4 +10,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.idghombilaghunah">
 
+    <TextView
+        android:text="Idghom Bilaghunah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="11dp"
+        android:textSize="25sp"
+        android:id="@+id/textView100" />
+
+    <TextView
+        android:text="Idghom         : memasukkan
+Bilaghunnah : dengan tanpa mendengung
+Artinya: apabila ada Nun sukun atau Tanwin bertemu dengan salah satu huruf hijaiyyah yang berjumlah 2 huruf, antara lain: ل dan ر
+Contoh:
+مِنْ لَدُ نْكَ ( نْ- ل )                   غَفُوْرٌرَحِيْمٌ ( _ٌ – ر)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="43dp"
+        android:textSize="20sp"
+        android:id="@+id/textView101"
+        android:layout_below="@+id/textView100"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
+
