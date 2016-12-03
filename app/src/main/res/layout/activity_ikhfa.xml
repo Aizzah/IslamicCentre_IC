@@ -10,4 +10,38 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.ikhfa">
 
+    <TextView
+        android:text="Ikhfa'"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:id="@+id/textView104" />
+
+    <TextView
+        android:text="Ikhfa’ berarti: samar-samar
+Artinya: apabila ada Nun sukun atau Tanwin bertemu dengan salah satu huruf hijaiyyah yang berjumlah 15 huruf, antara lain:
+ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك
+Contoh:
+مِنْ تَحْتِهَا ( نْ – ت )             مَاءً ثَجَا جًا ( _ً – ث)            اَنْجَيْنَا كُمْ ( نْ – ج )
+قِنْوَانٌ دَانِيَةٍ ( _ٌ – د)             مَنْ ذَالَّذِ يْ ( نْ – ذ)             يَوْمَئِذٍ زُرْقًا ( ٍ – ز )
+اِنَّ اْلاِ نْسَا نَ ( نْ – س )        عَذَا بٌ شَدِ يْدٌ ( _ٌ – ش)        قَوْ مًا صَا لِحِيْنَ ( _ً – ص)
+مُسْفِرَ ةٌ ضَا حِكَةٌ ( _ٌ – ض)    وَمَا يَنْطِقُ ( نْ – ط)             عَنْ ظُهُوْرِهِمْ ( نْ – ظ)
+عُمْيٌ فَهُمْ ( _ٌ – ف)               رِزْقًا قَا لُوْا ( _ً – ق)          مَنْ كَا نَ يَرْجُوْا ( نْ – ك)
+
+
+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:textSize="20sp"
+        android:id="@+id/textView105"
+        android:layout_below="@+id/textView104"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

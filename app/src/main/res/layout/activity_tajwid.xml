@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_tajwid"
@@ -10,4 +16,118 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.tajwid">
 
+    <Button
+        android:text="Idghom Bighunah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/aa"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/background_light" />
+
+
+    <Button
+        android:text="Idghom Bilaghunah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ab"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/aa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Idzhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ac"
+        android:background="@android:color/background_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ab" />
+
+    <Button
+        android:text="Iqlab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ad"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/ac"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Ikhfa'"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ae"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/ad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Idghom Mimi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/af"
+        android:background="@android:color/background_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ae" />
+
+    <Button
+        android:text="Ikhfa' Safawi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ag"
+        android:background="@android:color/background_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/af" />
+
+    <Button
+        android:text="Idzhar Safawi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ah"
+        android:background="@android:color/background_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ag" />
+
+    <Button
+        android:text="Idghom Mutamasilain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ai"
+        android:background="@android:color/background_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ah" />
+
+    <Button
+        android:text="Idghom Mutajanisain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aj"
+        android:background="@android:color/background_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ai" />
+
+    <Button
+        android:text="Idghom Mutaqorribain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ak"
+        android:background="@android:color/background_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/aj" />
+
 </RelativeLayout>
+</ScrollView>

@@ -10,4 +10,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.idghommutajanisain">
 
+    <TextView
+        android:text="Idghom Mutajanisain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:textSize="25sp"
+        android:id="@+id/textView114" />
+
+
+    <TextView
+        android:text="Dinamakan Idghom Mutajanisain jika TA sukun bertemu THA, THA sukun bertemu TA, TA sukun bertemu DAL, DAL sukun bertemu TA, LAM sukun bertemu RA, DZAL sukun bertemu ZHA.
+Contoh:
+(تْ- ط )   قَالَتْ طَا ئِفَة ٌ         ( طْ- ت )  لَئِنْ بَسَطْتَ            ( تْ- د )  اَثْقَلَتْ دَ عَوَا
+( دْ- ت )   قَدْ تَبَيَّنَ                ( لْ- ر )  قُلْ رَبِّ                  ( ذْ- ظ )   اِذْ ظَلَمُوْا
+"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView114"
+        android:layout_marginTop="38dp"
+        android:textSize="20sp"
+        android:id="@+id/textView115" />
 </RelativeLayout>

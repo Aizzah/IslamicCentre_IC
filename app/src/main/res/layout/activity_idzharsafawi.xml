@@ -10,4 +10,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.idzharsafawi">
 
+    <TextView
+        android:text="Idzhar Safawi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        android:textSize="25sp"
+        android:id="@+id/textView108" />
+
+    <TextView
+        android:text="Artinya: apabila ada Mim sukun bertemu dengan salah satu huruf hijaiyyah selain Mim dan Ba’
+Contoh:
+هُمْ نَا ئِمُوْنَ ( مْ – ن )                   اَمْ لَمْ تُنْدِ رْ هُمْ ( مْ – ت )
+الخ …….."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView108"
+        android:layout_alignLeft="@+id/textView108"
+        android:layout_alignStart="@+id/textView108"
+        android:layout_marginTop="52dp"
+        android:textSize="20sp"
+        android:id="@+id/textView109" />
 </RelativeLayout>

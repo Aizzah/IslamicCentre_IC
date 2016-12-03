@@ -10,4 +10,32 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.iqlab">
 
+    <TextView
+        android:text="Iqlab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:id="@+id/textView106" />
+
+    <TextView
+        android:text="Iqlab berarti:
+Artinya: apabila ada Nun sukun atau Tanwin bertemu dengan satu huruf dari huruf hijaiyyah yaitu: ب
+Contoh:
+مَنْ بَخِلَ ( نْ – ب )                 عَوَا نٌ بَيْنَ ( _ٌ – ب)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView106"
+        android:layout_alignLeft="@+id/textView106"
+        android:layout_alignStart="@+id/textView106"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="46dp"
+        android:textSize="20sp"
+        android:id="@+id/textView107" />
 </RelativeLayout>

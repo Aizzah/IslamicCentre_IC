@@ -10,4 +10,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.idghommutaqorribain">
 
+    <TextView
+        android:text="Idghom Mutaqorribain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:textSize="25sp"
+        android:id="@+id/textView118" />
+
+    <TextView
+        android:text="Dinamakan Idghom Mutaqorribain jika TSA sukun bertemu DZAL, QAF sukun bertemu KAF, BA sukun bertemu MIM.
+Contoh:
+( ثْ- ذ )  يَلْهَثْ ذ لِكَ             ( قْ- ك )  اَلَمْ نَخْلُقْكُمْ             ( بْ- م ) يبُنَيَّ ارْ كَبْ مَعَنَا"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView118"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp"
+        android:textSize="20sp"
+        android:id="@+id/textView119" />
 </RelativeLayout>

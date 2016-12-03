@@ -10,4 +10,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xiirpl505152535.islamiccentre_ic.tajwid.idzhar">
 
+    <TextView
+        android:text="Idzhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="22dp"
+        android:textSize="25sp"
+        android:id="@+id/textView102" />
+
+    <TextView
+        android:text="dzhar berarti: jelas atau terang
+Artinya: apabila ada Nun sukun atau Tanwin bertemu dengan salah satu huruf hijaiyyah yang berjumlah 6 huruf, antara lain: ﻫ  أ ح خ ع غ
+Contoh:
+كُفُوًا اَحَدٌ ( _ً – ا)              مِنْ حَيْثُ ( نْ – ح )           مَنْ خَفَّتْ ( نْ – خ )
+خُلُقٍ عَظِيْمٍ ( ٍ – ع )          قَوْ مًا غَيْرَ كُمْ ( _ً -غ)        لَكُمُ اْلاَ نْهَا َر ( نْ – ﻫ )"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/textView103"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
