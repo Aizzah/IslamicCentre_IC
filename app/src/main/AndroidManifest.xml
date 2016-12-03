@@ -42,18 +42,7 @@
         <activity android:name=".alquran" />
         <activity android:name=".alquran.alquran" />
         <activity android:name=".alquran.a_alfatihah" />
-        <activity android:name=".tajwid.idghombilaghunah" />
-        <activity android:name=".tajwid.idghommimi" />
-        <activity android:name=".tajwid.idghombighunah" />
-        <activity android:name=".tajwid.idghommutajanisain" />
-        <activity android:name=".tajwid.idghommutamatsilain" />
-        <activity android:name=".tajwid.idghommutaqorribain" />
-        <activity android:name=".tajwid.idzhar" />
-        <activity android:name=".tajwid.idzharsafawi" />
-        <activity android:name=".tajwid.ikhfa" />
-        <activity android:name=".tajwid.ikhfasafawi" />
-        <activity android:name=".tajwid.iqlab" />
-        <activity android:name=".tajwid.tajwid"></activity>
+        <activity android:name=".tajwid.idghombilaghunah"></activity>
     </application>
 
 </manifest>
