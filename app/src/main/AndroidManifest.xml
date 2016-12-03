@@ -4,14 +4,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/alquran"
+        android:icon="@drawable/icon"
         android:label="Islamic Center"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -36,44 +37,107 @@
         <activity android:name=".doa.turunhujan" />
         <activity android:name=".doa.setelahhujan" />
         <activity android:name=".Tajwid" />
-        <activity android:name=".Hijaiyah" />
-        <activity android:name=".Asmaulhusna" />
+        <activity
+            android:name=".Hijaiyah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Asmaulhusna"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".hadist" />
-        <activity android:name=".alquran" />
-        <activity android:name=".alquran.alquran" />
-        <activity android:name=".alquran.a_alfatihah" />
+      <activity android:name=".alquran" />
+        <activity
+            android:name=".alquran.alquran"/>
+        <activity
+            android:name=".alquran.a_alfatihah"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".alquran.b_albaqarah"
             android:label="@string/title_activity_b_albaqarah"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".alquran.c_alimran" />
-        <activity android:name=".alquran.d_annisa" />
-        <activity android:name=".alquran.e_almaaidah" />
-        <activity android:name=".alquran.f_alanam" />
-        <activity android:name=".alquran.g_alaraf" />
-        <activity android:name=".alquran.h_alanfal" />
-        <activity android:name=".alquran.i_attawbah" />
-        <activity android:name=".alquran.j_yunus" />
-        <activity android:name=".alquran.k_hud" />
-        <activity android:name=".alquran.l_yusuf" />
-        <activity android:name=".alquran.m_arrad" />
-        <activity android:name=".alquran.n_ibrahim" />
-        <activity android:name=".alquran.o_alhijr" />
-        <activity android:name=".alquran.p_annahl" />
-        <activity android:name=".alquran.q_alisra" />
-        <activity android:name=".alquran.r_alkahfi" />
-        <activity android:name=".alquran.s_maryam" />
-        <activity android:name=".alquran.t_taha" />
-        <activity android:name=".alquran.u_alanbiya" />
-        <activity android:name=".alquran.v_alhajj" />
-        <activity android:name=".alquran.w_almuminun" />
-        <activity android:name=".alquran.x_annur" />
-        <activity android:name=".alquran.y_alfurqan" />
-        <activity android:name=".alquran.z_asysyuara" />
-        <activity android:name=".alquran.aa_annaml" />
-        <activity android:name=".alquran.ab_alqossos" />
-        <activity android:name=".alquran.ac_alankabut" />
-        <activity android:name=".alquran.ad_arrum"></activity>
+        <activity
+            android:name=".alquran.c_alimran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.d_annisa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.e_almaaidah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.f_alanam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.g_alaraf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.h_alanfal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.i_attawbah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.j_yunus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.k_hud"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.l_yusuf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.m_arrad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.n_ibrahim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.o_alhijr"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.p_annahl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.q_alisra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.r_alkahfi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.s_maryam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.t_taha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.u_alanbiya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.v_alhajj"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.w_almuminun"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.x_annur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.y_alfurqan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.z_asysyuara"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.aa_annaml"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.ab_alqossos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.ac_alankabut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alquran.ad_arrum"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

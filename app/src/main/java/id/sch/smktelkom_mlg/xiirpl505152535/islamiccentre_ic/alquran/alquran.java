@@ -195,5 +195,6 @@ public class alquran extends AppCompatActivity {
                 startActivity(new Intent(alquran.this,ad_arrum.class));
             }
         });
+
     }
 }
