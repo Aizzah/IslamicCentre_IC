@@ -14,14 +14,14 @@ Nama Aplikasi : Islamic Centre
 ![screenshot_20161207-224033](https://cloud.githubusercontent.com/assets/22891163/20974351/7d88d93e-bcce-11e6-889c-8d8dc37cf5ae.jpg)
 
 - Video :
-[Youtube](https://youtu.be/Q7VY8rr8Bvs)
+[Youtube](https://youtu.be/_03uKXx2AEk)
 
 - Link APK :
 [Drive](https://drive.google.com/open?id=0ByJ7XdN2AtQJSExKVWxsNG56U28)
 
 - Identitas Tiap Anggota :
-  1. Aqidatul Izzah, XIIRPL5, 05,4296/1194-070, AIzzah, SMK Telkom Malang
-  2. Edwiseptania Rizkyta Dyah Araviqa Puteri, XIIRPL5, 15, 4330/1228-070,edwiaraviqa,SMK Telkom Malang
-  3. Muhammad Anwari, XIIRPL5, 25,4383/1281-070, MuhammadAnwari, SMK Telkom Malang
-  4. Sinta Ayu Sabilla, XIIRPL5, 35, 4446/1346-070,Sabilla290, SMK Telkom Malang
+  1. Aqidatul Izzah, XIIRPL5, 05, 4296/1194-070, AIzzah, SMK Telkom Malang
+  2. Edwiseptania Rizkyta Dyah Araviqa Puteri, XIIRPL5, 15, 4330/1228-070, edwiaraviqa, SMK Telkom Malang
+  3. Muhammad Anwari, XIIRPL5, 25, 4383/1281-070, MuhammadAnwari, SMK Telkom Malang
+  4. Sinta Ayu Sabilla, XIIRPL5, 35, 4446/1346-070, Sabilla290, SMK Telkom Malang
   
