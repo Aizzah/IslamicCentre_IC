@@ -4,16 +4,21 @@ Nama Aplikasi : Islamic Centre
 - Penjelasan Aplikasi :
 - Aplikasi ini dibuat untuk mengenalkan kita lebih dalam terhadap pengetahuan  tentang Islam yang berupa Al-Quran, Tajwid, Hijaiyah, Doa, 
  Hadist, Asmaul Husna. Agar kita tetap mengingat kepada Allah SWT.
+ 
 - ScreenShoot :
-![screenshot_20161120-222907 1](https://cloud.githubusercontent.com/assets/22891163/20464035/8e66a0f6-af72-11e6-9fbf-8e4ea4e7edc9.jpg)
-![screenshot_20161120-222907 1](https://cloud.githubusercontent.com/assets/22891163/20464035/8e66a0f6-af72-11e6-9fbf-8e4ea4e7edc9.jpg)
-![screenshot_20161120-222917 1](https://cloud.githubusercontent.com/assets/22891163/20464041/a034a846-af72-11e6-80b0-552959972f8a.jpg)
-![screenshot_20161120-222931 1](https://cloud.githubusercontent.com/assets/22891163/20464042/ac491e78-af72-11e6-87cb-b029a9b3606f.jpg)
-![screenshot_20161120-222943 1](https://cloud.githubusercontent.com/assets/22891163/20464056/d07c5300-af72-11e6-8595-d8fb8fca8903.jpg)
-![screenshot_20161120-222946 1](https://cloud.githubusercontent.com/assets/22891163/20464058/d91cd7a0-af72-11e6-9261-7ec6458fd971.jpg)
+![screenshot_20161207-223948](https://cloud.githubusercontent.com/assets/22891163/20974362/885b8cf8-bcce-11e6-9242-fc0f1ed031dc.jpg)
+![screenshot_20161207-223953](https://cloud.githubusercontent.com/assets/22891163/20974386/987b9b6e-bcce-11e6-81f5-7e3100b64fcc.jpg)
+![screenshot_20161207-223958](https://cloud.githubusercontent.com/assets/22891163/20974392/9e194aee-bcce-11e6-8411-1abf7a92e05a.jpg)
+![screenshot_20161207-224001](https://cloud.githubusercontent.com/assets/22891163/20974399/a2cc0d38-bcce-11e6-9a2a-1171802e1808.jpg)
+![screenshot_20161207-224004](https://cloud.githubusercontent.com/assets/22891163/20974354/81416b86-bcce-11e6-8cb3-fdfde634956c.jpg)
+![screenshot_20161207-224033](https://cloud.githubusercontent.com/assets/22891163/20974351/7d88d93e-bcce-11e6-889c-8d8dc37cf5ae.jpg)
+
 - Video :
-ukurannya terlalu besr, jadi video masih menyusul
-- Link APK :lihat di folder :)
+[Youtube](https://youtu.be/Q7VY8rr8Bvs)
+
+- Link APK :
+[Drive](https://drive.google.com/open?id=0ByJ7XdN2AtQJSExKVWxsNG56U28)
+
 - Identitas Tiap Anggota :
   1. Aqidatul Izzah, XIIRPL5, 05,4296/1194-070, AIzzah, SMK Telkom Malang
   2. Edwiseptania Rizkyta Dyah Araviqa Puteri, XIIRPL5, 15, 4330/1228-070,edwiaraviqa,SMK Telkom Malang
